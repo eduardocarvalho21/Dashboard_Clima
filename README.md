@@ -7,7 +7,7 @@ Uma aplicação web moderna e responsiva para consulta de previsão do tempo em 
 
 ## 📸 Preview
 
-./preview.png
+![Interface do WeatherApp](./preview.png)
 
 ## 🚀 Tecnologias Utilizadas
 
