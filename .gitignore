@@ -3,7 +3,6 @@
 .env
 .vscode/
 .idea/
-assets/
 
 # --- BACKEND (Python) ---
 backend/__pycache__/
