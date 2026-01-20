@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #9dd4ff !important;
+  font-family: 'Poppins', sans-serif;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container {
+  width: 100%;
+  max-width: 550px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.logo-area {
+  background-color: #D1F0FF;
+  width: 60px;
+  height: 60px;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px; 
+}
+
+.logo-icon {
+  font-size: 1.8rem;
+  color: #00A3FF;
+}
+
+.app-title {
+  font-size: 2rem;
+  color: #1A202C;
+  margin: 0;
+  line-height: 1;
+}
+
+.app-subtitle {
+  color: #718096;
+  font-size: 0.95rem;
+  margin-top: 8px;
+  font-weight: 300;
+}
+
+.search-bar {
+  width: 100%;
+  display: flex;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.search-input {
+  flex: 1;
+  background: white;
+  border: none;
+  border-radius: 12px;
+  padding: 15px 20px;
+  font-size: 1rem;
+  color: #4A5568;
+  outline: none;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.02); 
+}
+
+.search-input::placeholder {
+  color: #A0AEC0;
+}
+
+.search-btn {
+  background-color: #63C7FF; 
+  color: white;
+  border: none;
+  border-radius: 12px;
+  width: 55px;
+  cursor: pointer;
+  transition: background 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 6px rgba(99, 199, 255, 0.2);
+}
+
+.search-btn:hover {
+  background-color: #4FB3FF;
+}
+
+.content-card {
+  background: rgb(255, 255, 255);
+  width: 100%;
+  min-height: 350px; 
+  border-radius: 24px;
+  padding: 40px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.03);
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  text-align: center;
+}
+
+.empty-state-icon {
+  font-size: 5rem;
+  color: #BEE3F8;
+  margin-bottom: 20px;
+}
+
+.empty-title {
+  font-size: 1.25rem;
+  color: #2D3748;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.empty-desc {
+  color: #A0AEC0;
+  font-size: 0.9rem;
+  max-width: 280px;
+  line-height: 1.5;
+}
+
+.result-container {
+  width: 100%;
+  animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.main-temp {
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: #2D3748;
+  line-height: 1;
+}
+
+.city-header {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2D3748;
+  margin-bottom: 5px;
+}
+
+.weather-badge-row {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.info-pill {
+  background-color: #F7FAFC;
+  padding: 10px 20px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #4A5568;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
